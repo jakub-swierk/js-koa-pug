@@ -1,0 +1,20 @@
+{
+  "name": "js-koa-pug",
+  "version": "1.0.0",
+  "description": "Koa 2 middleware for rendering pug templates.",
+  "main": "lib/index.js",
+  "author": "Jakub Świerk <j.swirus@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "koa2",
+    "koa",
+    "pug",
+    "pugjs",
+    "middleware"
+  ],
+  "dependencies": {
+    "lodash.defaults": "^4.2.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta6"
+  }
+}
