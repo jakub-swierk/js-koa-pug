@@ -22,6 +22,10 @@ app.use(function(ctx) {
 });
 ```
 
+## Hint
+
+For production environments its nice to have cache option enabled.
+
 ## License
 
 MIT, see more in LICENSE file.
