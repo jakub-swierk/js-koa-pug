@@ -6,11 +6,21 @@ Koa 2 middleware for rendering pug templates.
 
 `npm install --save js-koa-pug`
 
-## Options
+## API
 
-Every option available for [pug](pugjs.org/api/reference.html).
+#### `pug(root, options)`
 
-On a every route:
+* `root`: Path to your views.
+* `options` Default render options see  [pug documentation](https://pugjs.org/api/reference.html) for more.
+
+
+#### `context.render(file, options)`
+
+* `file`: Path relative to root, without `.pug` extension.
+* `options` Overrides default options.
+
+
+# Example
 
 ```javascript
 var pug = require('js-koa-pug');
