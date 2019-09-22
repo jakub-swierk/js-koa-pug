@@ -10,25 +10,23 @@ Koa 2 middleware for rendering pug templates.
 
 #### `pug(root, options)`
 
-* `root`: Path to your views.
-* `options` Default render options see  [pug documentation](https://pugjs.org/api/reference.html) for more.
-
+- `root`: Path to your views.
+- `options` Default render options see [pug documentation](https://pugjs.org/api/reference.html) for more.
 
 #### `context.render(file, options)`
 
-* `file`: Path relative to root, without `.pug` extension.
-* `options` Overrides default options.
-
+- `file`: Path relative to root, without `.pug` extension.
+- `options` Overrides default options.
 
 # Example
 
 ```javascript
-var pug = require('js-koa-pug');
+var pug = require("js-koa-pug");
 
-app.use(pug('views'));
+app.use(pug("views"));
 
 app.use(function(ctx) {
-  ctx.render('index');
+  ctx.render("index");
 });
 ```
 
