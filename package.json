@@ -1,6 +1,6 @@
 {
   "name": "js-koa-pug",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Koa 2 middleware for rendering pug templates.",
   "main": "index.js",
   "author": "Jakub Świerk <jakub@swierk.me> (https://jakub.swierk.me)",
